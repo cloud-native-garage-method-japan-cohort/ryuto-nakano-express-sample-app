@@ -55,7 +55,7 @@ spec:
       imagePullSecrets: 
       - name: ryuto-nakano-pull-secret
       securityContext:
-        runAsUser: 1000800001
-        runAsGroup: 1000800001
+        runAsUser: 1000850001
+        runAsGroup: 1000850001
   revisionHistoryLimit: 10
   progressDeadlineSeconds: 600

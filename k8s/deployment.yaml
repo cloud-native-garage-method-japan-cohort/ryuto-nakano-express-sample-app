@@ -54,6 +54,8 @@ spec:
         imagePullPolicy: IfNotPresent
       imagePullSecrets: 
       - name: ryuto-nakano-pull-secret
-      securityContext: {}
+      securityContext:
+        runAsUser: 1000800001
+        runAsGroup: 1000800001
   revisionHistoryLimit: 10
   progressDeadlineSeconds: 600
